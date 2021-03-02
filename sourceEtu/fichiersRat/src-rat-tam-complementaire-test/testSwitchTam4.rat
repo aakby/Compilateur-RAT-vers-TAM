@@ -1,0 +1,27 @@
+enum Jour {Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche};
+int numero (Jour j){
+    int i = 0;
+    switch (j) {
+        case Lundi : i= 1;
+        case Mardi : i= 2;
+        case Mercredi : i= 3;
+        case Jeudi : i= 4;
+        case Vendredi : i= 5;
+        case Samedi : i= 6;
+        case Dimanche : i= 7;
+    }
+    return i;
+}
+
+main {
+    Jour jourtravail = Lundi;
+    print (call numero (jourtravail));
+    jourtravail = Mardi;
+    print (call numero (jourtravail));
+    jourtravail = Mercredi;
+    print (call numero (jourtravail));
+    jourtravail = Jeudi;
+    print (call numero (jourtravail));
+    jourtravail = Vendredi;
+    print (call numero (jourtravail));
+}

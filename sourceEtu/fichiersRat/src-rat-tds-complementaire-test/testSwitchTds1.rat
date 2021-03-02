@@ -1,0 +1,8 @@
+main {
+    int a = 2;
+    switch (a) {
+        case 1 : break;
+        case 2 : print 2;
+        default : print 10;
+    }
+}

@@ -1,0 +1,10 @@
+int f (int a int b){
+    return 1;
+}
+
+int f (rat a rat b){
+    return 2;
+}
+
+main {
+}

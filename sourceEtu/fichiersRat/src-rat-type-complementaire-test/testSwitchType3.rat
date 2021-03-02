@@ -1,0 +1,1 @@
+main { int x = 2;    switch ((x=1)) {  case true : int x = 0; break;    default : print 3;     case false : int y = 4; break;}}

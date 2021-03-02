@@ -1,0 +1,19 @@
+bool multiplicationpossible (int a int b){
+    return true;
+}
+bool multiplicationpossible (rat a rat b){
+    return true;
+}
+bool multiplicationpossible (rat a int b){
+    return false;
+}
+bool multiplicationpossible (int a rat b){
+    return false;
+}
+
+main {
+    print (call multiplicationpossible (10 15));
+    print (call multiplicationpossible ([70/15] [30/2]));
+    print (call multiplicationpossible ([10/25] 25));
+    print (call multiplicationpossible (20 [40/30]));
+}

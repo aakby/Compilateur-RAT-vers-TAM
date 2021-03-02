@@ -1,0 +1,15 @@
+main {
+    int x = 0;
+    switch (x) {
+        case 0:
+            int y = 0;
+            print y;
+            break;
+        default :
+            print 5;
+        case 1:
+            int z = 4;
+            print z;
+            break;
+    }
+}

@@ -1,0 +1,1 @@
+enum Mois {Janvier, Fevrier, Mars, Avril, Mai, Juin, Juillet , Aout, Septembre, Octobre, Novembre, Decembre};enum Jour {Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche};test {Mois m = Janvier;bool b1 = (m=Mars);Mois j = Dimanche;int b2 = (j=Dimanche);}

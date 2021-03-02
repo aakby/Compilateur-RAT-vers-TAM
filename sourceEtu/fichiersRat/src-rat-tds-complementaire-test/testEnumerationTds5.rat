@@ -1,0 +1,21 @@
+enum Mois {Janvier, Fevrier, Mars, Avril, Mai, Juin, Juillet , Aout, Septembre, Octobre, Novembre, Decembre};
+enum Jour {Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche};
+
+bool verifier (Jour j){
+    bool weekend = false;
+    if (j=Samedi) {
+        weekend = true;
+    } else {
+        if (j=Dimanche) {
+            weekend = true;
+        } else {}
+    }
+    return weekend;
+}
+
+main {
+    Jour j1 = Samedi;
+    Jour j2 = Mardi;
+    print (call verifier (j1));
+    print (call verifier (j2));
+}

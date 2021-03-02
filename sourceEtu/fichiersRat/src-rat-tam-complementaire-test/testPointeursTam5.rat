@@ -1,0 +1,12 @@
+int * fonc (int x){
+    int * y = (new int);
+    (* y) = x;
+    return y;
+}
+
+main {
+    int z = 10;
+    int * x = (call fonc (z));
+    (*x) = ((*x)+1);
+    print (*x);
+}

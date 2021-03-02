@@ -1,0 +1,1 @@
+int func(int a int b) {return (a+b);}      int func(rat a int b) {return b;}     int func(rat a rat b int c bool d) {return denom a;}     test{int a = call func([1/2] [3/4] 3 true);}

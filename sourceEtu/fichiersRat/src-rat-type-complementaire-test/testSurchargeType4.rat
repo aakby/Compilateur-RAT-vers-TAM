@@ -1,0 +1,1 @@
+int func(int a int b) {return (a+b);}      int func(rat a int b) {return b;}     test{rat a = call func(1 1);}

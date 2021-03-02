@@ -1,0 +1,7 @@
+main {
+    int a = 2;
+    switch (b) {
+        case 1 : break;
+        default : print 10;
+    }
+}

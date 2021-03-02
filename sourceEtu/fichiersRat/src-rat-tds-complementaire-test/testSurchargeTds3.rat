@@ -1,0 +1,10 @@
+int fonc (int a int b){
+    return (a+b);
+}
+
+int fonc (int c int d){
+    return (c+d);
+}
+
+main{
+}

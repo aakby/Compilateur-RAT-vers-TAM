@@ -1,0 +1,11 @@
+int incrementer (int * x){
+    int y = (*x);
+    (*x) = (1+y);
+    return 1;
+}
+main {
+    int * y = (new int);
+    (*y) = 19;
+    int succes = call incrementer(y);
+    print (*y);
+}

@@ -1,0 +1,6 @@
+enum Jour {Lundi, Mardi, Mercredi};
+enum Jour {Jeudi, Vendredi, Samedi, Dimanche};
+main {
+    Jour j = Samedi;
+    Jour j = Vendredi;
+}

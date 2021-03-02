@@ -1,0 +1,6 @@
+enum Jour {Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche};
+main {
+    Jour j1 = Lundi;
+    Jour j2 = Mardi;
+    print (j1=j2);
+}

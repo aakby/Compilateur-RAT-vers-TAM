@@ -1,0 +1,14 @@
+int valeuraffichee (int x){
+    return x;
+}
+bool valeuraffichee (bool b){
+    return b;
+}
+rat valeuraffichee (rat r){
+    return r;
+}
+main {
+    print (call valeuraffichee (true));
+    print (call valeuraffichee ([2020/2021]));
+    print (call valeuraffichee (99));
+}

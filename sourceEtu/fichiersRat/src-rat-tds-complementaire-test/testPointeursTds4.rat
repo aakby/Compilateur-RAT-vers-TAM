@@ -1,0 +1,5 @@
+main {
+    const x = 10;
+    int * y = (&x);
+    print (*y);
+}

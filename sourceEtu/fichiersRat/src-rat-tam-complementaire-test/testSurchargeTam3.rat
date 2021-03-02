@@ -1,0 +1,10 @@
+int ajouter (int a int b){
+    return (a+b);
+}
+rat ajouter (rat a rat b){
+    return (a+b);
+}
+main {
+    print (call ajouter (9 1));
+    print (call ajouter (3 2));
+}

@@ -1,0 +1,14 @@
+rat unefonction (rat a){
+    return a;
+}
+
+int unefonction (int a){
+    return a;
+}
+
+main {
+    rat x = [3/7];
+    int y = 4;
+    print (call unefonction(x));
+    print (call unefonction(y));
+}

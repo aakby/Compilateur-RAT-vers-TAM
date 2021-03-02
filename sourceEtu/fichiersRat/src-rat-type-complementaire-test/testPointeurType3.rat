@@ -1,0 +1,1 @@
+test{int * px = (new int);int x = 4;px = &x;int y = (*px);}

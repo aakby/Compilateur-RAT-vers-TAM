@@ -1,0 +1,19 @@
+enum Jour {Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche};
+int fonction (Jour j){
+    int n  = 0;
+    switch (j) {
+        case Lundi : n=1; break;
+        case Mardi : n=2; break;
+        case Mercredi : n=3; break;
+        case Jeudi : n=4; break;
+        case Vendredi : n=5; break;
+        case Samedi : n=6; break;
+        case Dimanche : n=7; break;
+    }
+    return n;
+} 
+
+main {
+    Jour j = Mercredi;
+    print (call fonction (j));
+}

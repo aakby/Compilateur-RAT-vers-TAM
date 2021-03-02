@@ -1,0 +1,18 @@
+enum Jour {Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche};
+bool weekend (Jour j){
+    bool resultat = false;
+    if (j = Samedi) {
+        resultat = true;
+    } else {
+        if (j = Dimanche) {
+            resultat = true;
+        } else {}
+    }
+    return resultat;
+}
+main {
+    Jour j1 = Jeudi;
+    print (call weekend (j1));
+    Jour j2 = Dimanche;
+    print (call weekend (j2));
+}

@@ -1,0 +1,9 @@
+enum Binaire {ZERO, UN};
+main {
+    Binaire b1 = UN;
+    if (b1 = UN){
+        print 1;
+    } else {
+        print 0;
+    }
+}

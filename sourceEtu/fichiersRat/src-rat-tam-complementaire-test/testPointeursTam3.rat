@@ -1,0 +1,8 @@
+main {
+    int *** x = (new int**);
+    (*x) = (new int*);
+    (*(*x)) = (new int);
+    (*(*(*x))) = 2021;
+    int y = (*(*(*x)));
+    print y; 
+}

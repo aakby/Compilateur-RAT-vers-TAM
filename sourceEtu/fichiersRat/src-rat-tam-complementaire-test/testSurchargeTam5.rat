@@ -1,0 +1,18 @@
+int ajouter (int a int b){
+    return (a+b);
+}
+rat ajouter (rat a rat b){
+    return (a+b);
+}
+main {
+    int x = 10;
+    int *y = (new int);
+    (*y) = 15;
+    print (call ajouter (x (*y)));
+    rat * r1 = (new rat);
+    rat ** r2 = (new rat*);
+    (*r2) = (new rat);
+    (*(*r2)) = [13/10];
+    (*r1) = [7/10];
+    print (call ajouter ((*r1) (*(*r2))));
+}

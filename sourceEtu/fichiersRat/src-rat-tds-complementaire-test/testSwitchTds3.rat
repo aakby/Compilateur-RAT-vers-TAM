@@ -1,0 +1,7 @@
+main {
+    int x = 10;
+    switch ((x = 2)) {
+        case true : print 2; break;
+        case false: print x; break;
+    }
+}

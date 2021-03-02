@@ -1,0 +1,17 @@
+enum LALIGA1 {AtleticoMadrid, RealMadrid, Barcelona, Villarreal, RealSociedad, Seville, Grenade, CeltaVigo, Cadix, Betis, Levante, AthBilbao, Getafe
+        , Valence, Eibar, DeportivoAlaves, Valladolid, Elche, Osasuna, Huesca};
+
+bool classico (LALIGA1 club1 LALIGA1 club2) {
+    bool resultat = false;
+    if (club1 = Barcelona) {
+        if (club2 = RealMadrid) {
+            resultat = true;
+        } else {}
+    } else {}
+    return resultat;
+}
+main {
+    LALIGA1 c1 = Barcelona;
+    LALIGA1 c2 = RealMadrid;
+    print (call classico (c1 c2));
+}

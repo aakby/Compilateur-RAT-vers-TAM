@@ -1,0 +1,11 @@
+enum LALIGA1 {AtleticoMadrid, RealMadrid, Barcelona, Villarreal, RealSociedad, Seville, Grenade, CeltaVigo, Cadix, Betis, Levante, AthBilbao, Getafe
+        , Valence, Eibar, DeportivoAlaves, Valladolid, Elche, Osasuna, Huesca};
+
+main {
+    LALIGA1 prochainMatch1Club1 = Barcelona;
+    LALIGA1 prochainMatch1Club2 = Seville;
+    LALIGA1 prochainMatch2Club1 = Villarreal;
+    LALIGA1 prochainMatch2Club2 = DeportivoAlaves;
+    LALIGA1 prochainMatch3Club1 = Huesca;
+    LALIGA1 prochainMatch3Club2 = AthBilbao;
+}
