@@ -1,0 +1,14 @@
+int func (int x){
+    return 1;
+}
+int afec (rat y){
+    return 22;
+}
+int func (rat x){
+    return 2;
+}
+
+main {
+    int resultat = call func([3/4]);
+    print resultat;
+}
