@@ -1,0 +1,6 @@
+# dune ocaml-merlin --no-print-directory
+# OCAMLPARAM: unset
+# Workspace root:
+# /home/anas/Desktop/GITS/2A_SN/S7/PF_TDL/TDL/RenduFinal/sourceEtu
+$ /usr/bin/nproc > /tmp/dune47004e.output 2> /dev/null
+# Auto-detected concurrency: 8
